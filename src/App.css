@@ -1,0 +1,63 @@
+.Home-Image {
+  display: flex;
+  flex-direction: column;
+  background-color:aliceblue;
+}
+.My-details {
+  display: flex;
+  justify-content: center;
+  font-size: x-large;
+  font-weight: 100;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: darkslateblue;
+}
+.contacts-container  {
+    display: flex;
+    justify-content: space-around;
+    background-color:darkslateblue;
+    flex-direction: row;
+    font-size:xx-large;
+    align-items: center;
+  
+}
+.contacts-container > email-list {
+  display: flex;
+  align-items: flex-start;
+}
+.contacts-container > linked-in-list {
+  display: flex;
+  align-items: flex-end;
+
+}
+.about-component {
+  background-color: darkslateblue;
+  flex-direction: column;
+  display: flex;
+  font-size:x-large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  justify-content:initial;
+  
+}
+.about-component > about-element {
+  display: flex;
+  font-weight: bold;
+}
+.about-component > description {
+  display: flex;
+  justify-content: space-around;
+  font-weight: lighter;
+}
+.intrests-container {
+  background-color:darkslateblue;
+  display: flex;
+  flex-direction:column;
+  font-size: x-large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.footer-container {
+  background-color:darkslategray;
+  display: flex;
+  justify-content: space-evenly;
+
+}
